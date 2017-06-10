@@ -1,0 +1,24 @@
+{
+  "name": "nocms-express-logger",
+  "version": "0.1.0",
+  "description": "Express logger middleware package for NoCMS services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:nocms/nocms-express-logger.git"
+  },
+  "keywords": [
+    "nocms",
+    "logging",
+    "logger",
+    "express"
+  ],
+  "author": "Jon Arild Tørresdal",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "1.8.10"
+  }
+}
