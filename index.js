@@ -21,7 +21,7 @@ module.exports = function(options) {
           method: req.method,
           url: req.originalUrl || req.url,
           user: req.user || '',
-          query: req.query,
+          query: req.query || '',
           httpVersion: `${req.httpVersionMajor}.${req.httpVersionMinor}`,
           remoteAddress: req.connection.remoteAddress,
           remotePort: req.connection.remotePort
