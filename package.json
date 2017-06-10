@@ -20,6 +20,6 @@
   "license": "ISC",
   "dependencies": {
     "bunyan": "1.8.10",
-    "correlation-id": "^2.0.0"
+    "correlation-id": "2.0.0"
   }
 }
