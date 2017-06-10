@@ -1,6 +1,6 @@
 {
   "name": "nocms-express-logger",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Express logger middleware package for NoCMS services",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "author": "Jon Arild Tørresdal",
   "license": "ISC",
   "dependencies": {
-    "bunyan": "1.8.10"
+    "bunyan": "1.8.10",
+    "correlation-id": "^2.0.0"
   }
 }
