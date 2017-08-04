@@ -1,6 +1,6 @@
 {
   "name": "nocms-express-logger",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Express logger middleware package for NoCMS services",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:nocms/nocms-express-logger.git"
+    "url": "https://github.com/miles-no/nocms-express-logger"
   },
   "keywords": [
     "nocms",
