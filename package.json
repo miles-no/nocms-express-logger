@@ -1,10 +1,11 @@
 {
   "name": "nocms-express-logger",
-  "version": "1.0.0",
+  "version": "0.0.0-semantic-release",
   "description": "Express logger middleware package for NoCMS services",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,13 @@
   "dependencies": {
     "bunyan": "1.8.10",
     "correlation-id": "2.0.0"
-  }
+  },
+  "devDependencies": {
+    "condition-circle": "^1.5.0",
+    "semantic-release": "^6.3.6"
+  },
+  "release": {
+    "verifyConditions": "condition-circle",
+    "debug": false
+  } 
 }
