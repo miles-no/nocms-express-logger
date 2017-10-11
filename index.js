@@ -8,15 +8,10 @@ module.exports = function(options) {
 
   return function(req, res, next) {
     const start = process.hrtime()
-    const id = req.get('x-correlation-id');
-
-    if (id) {
-      correlator.withId(id);
-    }
 
     let obj = {
       express: {
-        correlationId: correlator.getId(),
+        correlationId: req.get('x-correlation-id'),
         req: {
           method: req.method,
           url: req.originalUrl || req.url,
