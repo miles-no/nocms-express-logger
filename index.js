@@ -9,7 +9,6 @@ const getMessage = (req, res, duration) => {
   return `${req.method} ${req.originalUrl || req.url} ${res.statusCode} ${contentLength} ${duration} ms`;
 };
 
-
 module.exports = (logger = console) => {
   const middleware = (req, res, next) => {
     const start = process.hrtime();

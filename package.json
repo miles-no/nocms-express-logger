@@ -26,7 +26,7 @@
     "eslint": "^4.13.0",
     "eslint-config-webteam": "^2.0.0",
     "eslint-plugin-import": "^2.8.0",
-    "semantic-release": "^6.3.6"
+    "semantic-release": "^8.2.0"
   },
   "release": {
     "verifyConditions": "condition-circle",
